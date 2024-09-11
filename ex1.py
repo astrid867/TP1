@@ -20,6 +20,6 @@ if ("no" in category.lower()) or ("non" in category.lower()):
     print(date + " - " + discipline + " : ")
 else:
     print(date + " - " + discipline + " - " + category + " :")
-print("\t" + athlete + " (" + country + ")" + " - " + record)
+print("\t" + athlete + " (" + country + ")" + " - " + record + "\n\n")
     
 
