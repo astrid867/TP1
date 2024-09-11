@@ -1,18 +1,18 @@
-# TODO: Créer un script permettant le formattage du livre des records des JO.
+# TODO: Crï¿½er un script permettant le formattage du livre des records des JO.
 
-    # Demander la nationalité de l'athlète
-    # Demander le nom de l'athlète
+    # Demander la nationalitï¿½ de l'athlï¿½te
+    # Demander le nom de l'athlï¿½te
     # Demander la date du record
     # Demander la discipline
-    # Demander la catégorie, qui peut être nulle
+    # Demander la catï¿½gorie, qui peut ï¿½tre nulle
     # Demander le record
 
 
-country = input("De quelle nationalité est l'athlète ? (donner les 3 lettres correspondant au pays)\n\t>")
+country = input("De quelle nationalitï¿½ est l'athlï¿½te ? (donner les 3 lettres correspondant au pays)\n\t>")
 athlete = input("Quel est son nom ?\n\t>")
 date = input("Date du record ? (jj/mm/aaaa)\n\t>")
 discipline = input("Dans quelle discipline ?\n\t>")
-category = input("Dans une catégorie spécifique ?\n\t>")
+category = input("Dans une catÃ©gorie spcifique ?\n\t>")
 record = input("Quel est le record ?\n\t>")
 
 print("\nNouveau Record :\n----------------")
