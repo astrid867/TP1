@@ -1,7 +1,7 @@
 # TODO: Créer un script pour calculer les ressources nécessaires pour assainir la Seine.
 # TODO: Importer les modules nécessaires.
 
-eau = input("Quelle quantité d'eau faut-il assainir?\n\t")
+eau = input("Quelle quantité d'eau faut-il assainir?\n\t>")
 Filtre = float(eau)*(1/5)
 Lampes= float(eau)*(3/5)
 Chlore= float(eau)*(0.5/5)

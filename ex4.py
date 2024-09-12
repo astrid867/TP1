@@ -3,9 +3,9 @@
 #        et affiche le rÃ©sultat au format "XX km".
 #        Assurez une gestion du pourcentage valide au cours de votre programme (% toujours dans [0 ; 100]).
 
-pourcentage_batterie = input("Quel est le pourcentage de la battrie du bateau?")
+pourcentage_batterie = input("Quel est le pourcentage de la battrie du bateau?\n\t> ")
 if 50 < float(pourcentage_batterie) <= 100:
-    distance = (float(pourcentage_batterie) - 50) * 2 + (25*0.5) + (15*1) + (5*2.5)+(5*6)
+    distance = (float(pourcentage_batterie) - 50) * 2 + (25*0.5) + (15*1) + (5*2.5)+(5*6)  #on trouve combien de pourcents sotn au-dessus de 50,on trouve combien de km ça donne et on ajoute les autres km
 elif 25 < float(pourcentage_batterie) <= 50:
     distance = (float(pourcentage_batterie) - 25) * 0.5 + (15*1) + (5*2.5)+(5*6)
 elif 10 < float(pourcentage_batterie) <= 25:
@@ -15,6 +15,6 @@ elif 5 <  float(pourcentage_batterie) <= 10:
 elif 0 <=  float(pourcentage_batterie) <= 5:
     distance =  float(pourcentage_batterie) * 6
 else :
-    print (" La valeur entrÃ©e n'est pas valide.") 
+    print (" La valeur entrée n'est pas valide.") 
 
-print("La distance possible avec",pourcentage_batterie, "%", "batterie est d'environ,",round(distance), "km.")
+print("La distance possible avec",pourcentage_batterie, "%", "de batterie est d'environ",round(distance,1), "km.")
